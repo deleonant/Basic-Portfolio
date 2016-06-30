@@ -1,0 +1,273 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: arial, Helvetica, sans-serif;
+}
+
+section {
+}
+
+h1 {
+	color: white;
+	font-family: georgia;
+	padding: 30px;
+	font-size: 24px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: georgia;
+	padding-bottom: 25px;
+	padding-top: 15px;
+	border-bottom: 2px solid #cccccc;
+	font-size: 24px
+}
+
+h3 {
+	font-size: 10pt;
+	font-style: normal;
+}
+h3.footer {
+	font-size: 10pt;
+	font-style: normal;
+	font-color: #c8da2e;
+}
+
+
+h3.portfolio {
+	font-size: 12pt;
+	font-family: georgia;
+	padding-top: 20px;
+}
+
+p {
+	color: #777777;
+}
+
+p.contact {
+	font-size: 14pt;
+	padding-bottom: 0px;
+	padding-top: 15px;
+	margin: 0px;
+	display: block;
+}
+
+p.index {
+	font-size: 12pt;
+	line-height: 1.75;
+	padding: 10px;
+}
+
+a.footer {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+
+a.nav {
+	color: #666666;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-decoration: none;
+
+}
+
+
+
+
+.header {
+
+	background-color: white;
+	border-bottom: 2px solid #cccccc;
+	overflow: auto;
+	width: auto;
+}
+
+#header-name {
+	float:left;
+	margin-left: 100px;
+	background-color: #4aaaa5;
+}
+
+#nav {
+	text-align: right;
+	color: #cccccc;
+	padding-top: 40px;
+	position: relative;
+}
+
+.center {
+	background-image: url('skulls.png');
+	background-repeat: repeat;
+	overflow: auto;
+
+}
+
+#content-left {
+	background-color: #ffffff;
+	float: left;
+	width: 590px;
+	margin-left: 100px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: justify; 
+	border: 1px solid #cccccc;
+}
+
+#connect-right {
+	background-color: white;
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding: 20px;
+	border: 1px solid #cccccc;
+	width: 240px;
+}
+
+#img-links
+{
+	padding: 20px;
+}
+
+.footer {
+	color: white;
+	background-color: #666666;
+	border-top-width: 5px solid #4aaaa5;
+	overflow: auto;
+	clear: both;
+	text-align: center;
+	padding: 30px;
+	transition-duration: 0.1s;
+}
+
+.container {
+	width: 860px;
+}
+
+
+.profile-photo {
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 175px;
+	float: left;
+}
+
+.portfolio-photo-l {
+	padding: 10px;
+	width: 270px;
+	height: 200px;
+	float: left;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.19);
+}
+
+.portfolio-photo-r {
+	padding: 10px;
+	width: 270px;
+	height: 200px;
+	float: right;
+	position: relative;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.19);
+}
+
+.box {
+	background:#4aaaa5;
+	width: 270px;
+	height: 40px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-family: georgia;
+	left: 131px;
+	top: 320px;
+	position: absolute;
+	text-align: center;
+}
+
+.box2 {
+	background:#4aaaa5;
+	width: 270px;
+	height: 40px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-family: georgia;
+	left: 131px;
+	top: 535px;
+	position: absolute;
+}
+
+.box3 {
+	background:#4aaaa5;
+	width: 270px;
+	height: 40px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-family: georgia;
+	left: 431px;
+	top: 320px;
+	position: absolute;
+}
+
+.box4 {
+	background:#4aaaa5;
+	width: 270px;
+	height: 40px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-family: georgia;
+	left: 431px;
+	top: 535px;
+	position: absolute;
+}
+
+.box5 {
+	background:#4aaaa5;
+	width: 270px;
+	height: 40px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-family: georgia;
+	left: 131px;
+	top: 760px;
+	position: absolute;
+}
+
+input, textarea {
+	width: 560px;
+	padding: 10px;
+	border: 1px solid #cccccc
+	font-size: 14px;
+	font-family: arial;
+	display: block;
+}
+
+input.message {
+	height: 250px;
+	display: block;
+}
+
+.button  {
+	width: 120px;
+	height: 45px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	margin-top: 15px;
+	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.5s;
+}
+
+
